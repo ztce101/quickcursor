@@ -6,7 +6,7 @@
 //  Copyright (c) 2003 Cliché Software. All rights reserved.
 //
 
-#import <Carbon/Carbon.h>
+#import /Users/chase/Desktop/quickcursor/main.m
 
 @interface PTKeyCodeTranslator : NSObject
 {

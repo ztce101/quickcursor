@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		88558975159C94250021FF4A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88558974159C94250021FF4A /* Cocoa.framework */; };
+		88558975159C94250021FF4A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88558974159C94250021FF4A /* Cocoa.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		8855897F159C94250021FF4A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8855897D159C94250021FF4A /* InfoPlist.strings */; };
 		88558981159C94250021FF4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88558980159C94250021FF4A /* main.m */; };
 		88558988159C94250021FF4A /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 88558987159C94250021FF4A /* Document.m */; };
@@ -140,7 +140,7 @@
 		88558967159C94250021FF4A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0460;
 			};
 			buildConfigurationList = 8855896A159C94250021FF4A /* Build configuration list for PBXProject "QuickCursorEditorExample" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -219,6 +219,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -234,7 +238,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -245,6 +249,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -254,7 +262,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -262,6 +270,7 @@
 		88558992159C94250021FF4A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QuickCursorEditorExample/QuickCursorEditorExample-Prefix.pch";
 				INFOPLIST_FILE = "QuickCursorEditorExample/QuickCursorEditorExample-Info.plist";
@@ -273,6 +282,7 @@
 		88558993159C94250021FF4A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QuickCursorEditorExample/QuickCursorEditorExample-Prefix.pch";
 				INFOPLIST_FILE = "QuickCursorEditorExample/QuickCursorEditorExample-Info.plist";
@@ -300,6 +310,7 @@
 				88558993159C94250021FF4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
