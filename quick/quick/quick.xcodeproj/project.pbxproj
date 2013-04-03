@@ -15,6 +15,9 @@
 		ABC22F01170BC93C00A0E15F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABC22EFF170BC93C00A0E15F /* MainMenu.xib */; };
 		ABC22F09170BC93C00A0E15F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC22F08170BC93C00A0E15F /* SenTestingKit.framework */; };
 		ABC22F0A170BC93C00A0E15F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC22EEA170BC93C00A0E15F /* Cocoa.framework */; };
+		ABC22F20170BD35500A0E15F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABC22EFF170BC93C00A0E15F /* MainMenu.xib */; };
+		ABC22F22170BD48D00A0E15F /* SCMI 2 copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABC22F21170BD48D00A0E15F /* SCMI 2 copy.jpg */; };
+		ABC22F24170BD4B500A0E15F /* bedsidecloseup.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABC22F23170BD4B500A0E15F /* bedsidecloseup.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,9 +43,11 @@
 		ABC22EFA170BC93C00A0E15F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		ABC22EFC170BC93C00A0E15F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ABC22EFD170BC93C00A0E15F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ABC22F00170BC93C00A0E15F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		ABC22F00170BC93C00A0E15F /* en */ = {isa = PBXFileReference; explicitFileType = wrapper.application; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		ABC22F07170BC93C00A0E15F /* quickTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = quickTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABC22F08170BC93C00A0E15F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		ABC22F21170BD48D00A0E15F /* SCMI 2 copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "SCMI 2 copy.jpg"; sourceTree = "<group>"; };
+		ABC22F23170BD4B500A0E15F /* bedsidecloseup.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bedsidecloseup.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +74,8 @@
 		ABC22EDE170BC93C00A0E15F = {
 			isa = PBXGroup;
 			children = (
+				ABC22F23170BD4B500A0E15F /* bedsidecloseup.jpg */,
+				ABC22F21170BD48D00A0E15F /* SCMI 2 copy.jpg */,
 				ABC22EF0170BC93C00A0E15F /* quick */,
 				ABC22EE9170BC93C00A0E15F /* Frameworks */,
 				ABC22EE8170BC93C00A0E15F /* Products */,
@@ -201,6 +208,8 @@
 				ABC22EF5170BC93C00A0E15F /* InfoPlist.strings in Resources */,
 				ABC22EFB170BC93C00A0E15F /* Credits.rtf in Resources */,
 				ABC22F01170BC93C00A0E15F /* MainMenu.xib in Resources */,
+				ABC22F22170BD48D00A0E15F /* SCMI 2 copy.jpg in Resources */,
+				ABC22F24170BD4B500A0E15F /* bedsidecloseup.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +217,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABC22F20170BD35500A0E15F /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +426,7 @@
 				ABC22F1A170BC93C00A0E15F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABC22F1B170BC93C00A0E15F /* Build configuration list for PBXNativeTarget "quickTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +435,7 @@
 				ABC22F1D170BC93C00A0E15F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

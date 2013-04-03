@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		882A8BB1128C33CB00D05C94 /* StatusItemIconOLD.png in Resources */ = {isa = PBXBuildFile; fileRef = 882A8BB0128C33CB00D05C94 /* StatusItemIconOLD.png */; };
+		882A8BD5128C349A00D05C94 /* QCUIElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 882A8BAD128C33BC00D05C94 /* QCUIElement.m */; };
+		882A8BD6128C349A00D05C94 /* QCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 882A8BAB128C33BC00D05C94 /* QCAppDelegate.m */; };
+		882A8BD7128C349B00D05C94 /* PTKeyCombo.m in Sources */ = {isa = PBXBuildFile; fileRef = 882A8BA9128C33BC00D05C94 /* PTKeyCombo.m */; };
+		882A8BD8128C349C00D05C94 /* PTKeyCodeTranslator.m in Sources */ = {isa = PBXBuildFile; fileRef = 882A8BA7128C33BC00D05C94 /* PTKeyCodeTranslator.m */; };
+		882A8BD9128C349D00D05C94 /* PTHotKeyCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 882A8BA4128C33BC00D05C94 /* PTHotKeyCenter.m */; };
+		882A8BDA128C349D00D05C94 /* PTKeyCodes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 882A8BA5128C33BC00D05C94 /* PTKeyCodes.plist */; };
+		882A8BDB128C349E00D05C94 /* PTHotKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 882A8BA2128C33BC00D05C94 /* PTHotKey.m */; };
+		882A8BDC128C349F00D05C94 /* ODBEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 882A8B9F128C33BC00D05C94 /* ODBEditor.m */; };
+		882A8BDD128C349F00D05C94 /* NSAppleEventDescriptor-Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 882A8B9D128C33BC00D05C94 /* NSAppleEventDescriptor-Extensions.m */; };
+		882A8C0F128C35EE00D05C94 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 882A8C0E128C35EE00D05C94 /* CoreServices.framework */; };
+		882A8C16128C35FA00D05C94 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 882A8C15128C35FA00D05C94 /* Carbon.framework */; };
+		882A8DB1128C378800D05C94 /* QuickCursor.icns in Resources */ = {isa = PBXBuildFile; fileRef = 882A8DB0128C378800D05C94 /* QuickCursor.icns */; };
+		882A8DC9128C381400D05C94 /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = 882A8DC8128C381400D05C94 /* Credits.html */; };
+		882A8DDE128C392800D05C94 /* QuickCursor User's Guide.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 882A8BAF128C33BC00D05C94 /* QuickCursor User's Guide.pdf */; };
+		882CFA50131BF122009C75A6 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 882CFA4F131BF122009C75A6 /* libcrypto.dylib */; };
+		882CFA52131BF12D009C75A6 /* libssl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 882CFA51131BF12D009C75A6 /* libssl.dylib */; };
+		882CFA5A131BF14D009C75A6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 882CFA59131BF14D009C75A6 /* Security.framework */; };
+		882CFA64131BF22E009C75A6 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 882CFA63131BF22E009C75A6 /* IOKit.framework */; };
+		884E34C4128C7E4100B60730 /* ShortcutRecorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884E34C3128C7E4100B60730 /* ShortcutRecorder.framework */; };
+		884E34CF128C7E4700B60730 /* ShortcutRecorder.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 884E34C3128C7E4100B60730 /* ShortcutRecorder.framework */; };
+		88564D8A12DF407E00070CD3 /* StatusItemIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 88564D8912DF407E00070CD3 /* StatusItemIcon.png */; };
+		8858B82912F9AC6600696670 /* receipt in Resources */ = {isa = PBXBuildFile; fileRef = 8858B82812F9AC6600696670 /* receipt */; };
+		88C3174D1469D7E0003E71E0 /* NSPasteboard_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C3174C1469D7E0003E71E0 /* NSPasteboard_Extensions.m */; };
+		88D3FC48133D0F8B00C2E651 /* ReceiptVerification.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D3FC47133D0F8B00C2E651 /* ReceiptVerification.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		882A8DAF128C377000D05C94 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				884E34CF128C7E4700B60730 /* ShortcutRecorder.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* QuickCursor_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickCursor_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		882A8B9C128C33BC00D05C94 /* NSAppleEventDescriptor-Extensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSAppleEventDescriptor-Extensions.h"; sourceTree = "<group>"; };
+		882A8B9D128C33BC00D05C94 /* NSAppleEventDescriptor-Extensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSAppleEventDescriptor-Extensions.m"; sourceTree = "<group>"; };
+		882A8B9E128C33BC00D05C94 /* ODBEditor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ODBEditor.h; sourceTree = "<group>"; };
+		882A8B9F128C33BC00D05C94 /* ODBEditor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ODBEditor.m; sourceTree = "<group>"; };
+		882A8BA0128C33BC00D05C94 /* ODBEditorSuite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ODBEditorSuite.h; sourceTree = "<group>"; };
+		882A8BA1128C33BC00D05C94 /* PTHotKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTHotKey.h; sourceTree = "<group>"; };
+		882A8BA2128C33BC00D05C94 /* PTHotKey.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTHotKey.m; sourceTree = "<group>"; };
+		882A8BA3128C33BC00D05C94 /* PTHotKeyCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTHotKeyCenter.h; sourceTree = "<group>"; };
+		882A8BA4128C33BC00D05C94 /* PTHotKeyCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTHotKeyCenter.m; sourceTree = "<group>"; };
+		882A8BA5128C33BC00D05C94 /* PTKeyCodes.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PTKeyCodes.plist; sourceTree = "<group>"; };
+		882A8BA6128C33BC00D05C94 /* PTKeyCodeTranslator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTKeyCodeTranslator.h; sourceTree = "<group>"; };
+		882A8BA7128C33BC00D05C94 /* PTKeyCodeTranslator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTKeyCodeTranslator.m; sourceTree = "<group>"; };
+		882A8BA8128C33BC00D05C94 /* PTKeyCombo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTKeyCombo.h; sourceTree = "<group>"; };
+		882A8BA9128C33BC00D05C94 /* PTKeyCombo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTKeyCombo.m; sourceTree = "<group>"; };
+		882A8BAA128C33BC00D05C94 /* QCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCAppDelegate.h; sourceTree = "<group>"; };
+		882A8BAB128C33BC00D05C94 /* QCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCAppDelegate.m; sourceTree = "<group>"; };
+		882A8BAC128C33BC00D05C94 /* QCUIElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCUIElement.h; sourceTree = "<group>"; };
+		882A8BAD128C33BC00D05C94 /* QCUIElement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCUIElement.m; sourceTree = "<group>"; };
+		882A8BAF128C33BC00D05C94 /* QuickCursor User's Guide.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "QuickCursor User's Guide.pdf"; sourceTree = "<group>"; };
+		882A8BB0128C33CB00D05C94 /* StatusItemIconOLD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StatusItemIconOLD.png; sourceTree = "<group>"; };
+		882A8BB2128C33F000D05C94 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		882A8BB6128C344500D05C94 /* QuickCursor-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "QuickCursor-Info.plist"; sourceTree = "<group>"; };
+		882A8C0E128C35EE00D05C94 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		882A8C15128C35FA00D05C94 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		882A8DB0128C378800D05C94 /* QuickCursor.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = QuickCursor.icns; sourceTree = "<group>"; };
+		882A8DC8128C381400D05C94 /* Credits.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Credits.html; sourceTree = "<group>"; };
+		882CFA4F131BF122009C75A6 /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = usr/lib/libcrypto.dylib; sourceTree = SDKROOT; };
+		882CFA51131BF12D009C75A6 /* libssl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libssl.dylib; path = usr/lib/libssl.dylib; sourceTree = SDKROOT; };
+		882CFA59131BF14D009C75A6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		882CFA63131BF22E009C75A6 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		884E34C3128C7E4100B60730 /* ShortcutRecorder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShortcutRecorder.framework; sourceTree = "<group>"; };
+		88564D8912DF407E00070CD3 /* StatusItemIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StatusItemIcon.png; sourceTree = "<group>"; };
+		8858B82812F9AC6600696670 /* receipt */ = {isa = PBXFileReference; lastKnownFileType = file; path = receipt; sourceTree = "<group>"; };
+		88C3174B1469D7E0003E71E0 /* NSPasteboard_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSPasteboard_Extensions.h; sourceTree = "<group>"; };
+		88C3174C1469D7E0003E71E0 /* NSPasteboard_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSPasteboard_Extensions.m; sourceTree = "<group>"; };
+		88D3FC46133D0F8B00C2E651 /* ReceiptVerification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceiptVerification.h; sourceTree = "<group>"; };
+		88D3FC47133D0F8B00C2E651 /* ReceiptVerification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceiptVerification.m; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* QuickCursor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickCursor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				882A8C0F128C35EE00D05C94 /* CoreServices.framework in Frameworks */,
+				882A8C16128C35FA00D05C94 /* Carbon.framework in Frameworks */,
+				884E34C4128C7E4100B60730 /* ShortcutRecorder.framework in Frameworks */,
+				882CFA50131BF122009C75A6 /* libcrypto.dylib in Frameworks */,
+				882CFA52131BF12D009C75A6 /* libssl.dylib in Frameworks */,
+				882CFA5A131BF14D009C75A6 /* Security.framework in Frameworks */,
+				882CFA64131BF22E009C75A6 /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				882A8BAA128C33BC00D05C94 /* QCAppDelegate.h */,
+				882A8BAB128C33BC00D05C94 /* QCAppDelegate.m */,
+				882A8BAC128C33BC00D05C94 /* QCUIElement.h */,
+				882A8BAD128C33BC00D05C94 /* QCUIElement.m */,
+				88C3174B1469D7E0003E71E0 /* NSPasteboard_Extensions.h */,
+				88C3174C1469D7E0003E71E0 /* NSPasteboard_Extensions.m */,
+				882A8C26128C368400D05C94 /* ODB Editor */,
+				882A8C27128C369100D05C94 /* Hot Key */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				884E34C3128C7E4100B60730 /* ShortcutRecorder.framework */,
+				882A8C0E128C35EE00D05C94 /* CoreServices.framework */,
+				882A8C15128C35FA00D05C94 /* Carbon.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* QuickCursor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* QuickCursor */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				882CFA4F131BF122009C75A6 /* libcrypto.dylib */,
+				882CFA51131BF12D009C75A6 /* libssl.dylib */,
+				882CFA59131BF14D009C75A6 /* Security.framework */,
+				882CFA63131BF22E009C75A6 /* IOKit.framework */,
+			);
+			name = QuickCursor;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				882A8BB2128C33F000D05C94 /* README.txt */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				88D3FC46133D0F8B00C2E651 /* ReceiptVerification.h */,
+				88D3FC47133D0F8B00C2E651 /* ReceiptVerification.m */,
+				256AC3F00F4B6AF500CF3369 /* QuickCursor_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8858B82812F9AC6600696670 /* receipt */,
+				882A8DC8128C381400D05C94 /* Credits.html */,
+				882A8DB0128C378800D05C94 /* QuickCursor.icns */,
+				882A8BB6128C344500D05C94 /* QuickCursor-Info.plist */,
+				882A8BAF128C33BC00D05C94 /* QuickCursor User's Guide.pdf */,
+				882A8BB0128C33CB00D05C94 /* StatusItemIconOLD.png */,
+				88564D8912DF407E00070CD3 /* StatusItemIcon.png */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		882A8C26128C368400D05C94 /* ODB Editor */ = {
+			isa = PBXGroup;
+			children = (
+				882A8B9E128C33BC00D05C94 /* ODBEditor.h */,
+				882A8B9F128C33BC00D05C94 /* ODBEditor.m */,
+				882A8BA0128C33BC00D05C94 /* ODBEditorSuite.h */,
+				882A8B9C128C33BC00D05C94 /* NSAppleEventDescriptor-Extensions.h */,
+				882A8B9D128C33BC00D05C94 /* NSAppleEventDescriptor-Extensions.m */,
+			);
+			name = "ODB Editor";
+			sourceTree = "<group>";
+		};
+		882A8C27128C369100D05C94 /* Hot Key */ = {
+			isa = PBXGroup;
+			children = (
+				882A8BA1128C33BC00D05C94 /* PTHotKey.h */,
+				882A8BA2128C33BC00D05C94 /* PTHotKey.m */,
+				882A8BA3128C33BC00D05C94 /* PTHotKeyCenter.h */,
+				882A8BA4128C33BC00D05C94 /* PTHotKeyCenter.m */,
+				882A8BA6128C33BC00D05C94 /* PTKeyCodeTranslator.h */,
+				882A8BA7128C33BC00D05C94 /* PTKeyCodeTranslator.m */,
+				882A8BA8128C33BC00D05C94 /* PTKeyCombo.h */,
+				882A8BA9128C33BC00D05C94 /* PTKeyCombo.m */,
+				882A8BA5128C33BC00D05C94 /* PTKeyCodes.plist */,
+			);
+			name = "Hot Key";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* QuickCursor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "QuickCursor" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				882A8DAF128C377000D05C94 /* Copy Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickCursor;
+			productInstallPath = "$(HOME)/Applications";
+			productName = QuickCursor;
+			productReference = 8D1107320486CEB800E47090 /* QuickCursor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "QuickCursor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* QuickCursor */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* QuickCursor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				882A8BB1128C33CB00D05C94 /* StatusItemIconOLD.png in Resources */,
+				882A8BDA128C349D00D05C94 /* PTKeyCodes.plist in Resources */,
+				882A8DB1128C378800D05C94 /* QuickCursor.icns in Resources */,
+				882A8DC9128C381400D05C94 /* Credits.html in Resources */,
+				882A8DDE128C392800D05C94 /* QuickCursor User's Guide.pdf in Resources */,
+				88564D8A12DF407E00070CD3 /* StatusItemIcon.png in Resources */,
+				8858B82912F9AC6600696670 /* receipt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				882A8BD5128C349A00D05C94 /* QCUIElement.m in Sources */,
+				882A8BD6128C349A00D05C94 /* QCAppDelegate.m in Sources */,
+				882A8BD7128C349B00D05C94 /* PTKeyCombo.m in Sources */,
+				882A8BD8128C349C00D05C94 /* PTKeyCodeTranslator.m in Sources */,
+				882A8BD9128C349D00D05C94 /* PTHotKeyCenter.m in Sources */,
+				882A8BDB128C349E00D05C94 /* PTHotKey.m in Sources */,
+				882A8BDC128C349F00D05C94 /* ODBEditor.m in Sources */,
+				882A8BDD128C349F00D05C94 /* NSAppleEventDescriptor-Extensions.m in Sources */,
+				88D3FC48133D0F8B00C2E651 /* ReceiptVerification.m in Sources */,
+				88C3174D1469D7E0003E71E0 /* NSPasteboard_Extensions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		884E34A6128C7D2000B60730 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = MAS;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = "";
+			};
+			name = Distribution;
+		};
+		884E34A7128C7D2000B60730 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = QuickCursor_Prefix.pch;
+				HEADER_SEARCH_PATHS = "${SOURCE_ROOT}/asn1";
+				INFOPLIST_FILE = "QuickCursor-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"/**",
+				);
+				OTHER_LDFLAGS = "-lcrypto";
+				PRODUCT_NAME = QuickCursor;
+			};
+			name = Distribution;
+		};
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = QuickCursor_Prefix.pch;
+				HEADER_SEARCH_PATHS = "${SOURCE_ROOT}/asn1";
+				INFOPLIST_FILE = "QuickCursor-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = "-lcrypto";
+				PRODUCT_NAME = QuickCursor;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = QuickCursor_Prefix.pch;
+				HEADER_SEARCH_PATHS = "${SOURCE_ROOT}/asn1";
+				INFOPLIST_FILE = "QuickCursor-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"/**",
+				);
+				OTHER_LDFLAGS = "-lcrypto";
+				PRODUCT_NAME = QuickCursor;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = "";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "QuickCursor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+				884E34A7128C7D2000B60730 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "QuickCursor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				884E34A6128C7D2000B60730 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
